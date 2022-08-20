@@ -11413,7 +11413,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../Images/banner.jpg");
+  background-image: url("./Images/banner.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11494,19 +11494,19 @@ header.masthead .masthead-heading {
 }
 .image-1,
 .thumbnails label[for="image1"] {
-  background-image: url('../Images/photo1.jpg');
+  background-image: url('./Images/photo1.jpg');
 }
 .image-2,
 .thumbnails label[for="image2"] {
-  background-image: url('../Images/photo2.jpg');
+  background-image: url('./Images/photo2.jpg');
 }
 .image-3,
 .thumbnails label[for="image3"] {
-  background-image: url('../Images/photo3.jpg');
+  background-image: url('./Images/photo3.jpg');
 }
 .image-4,
 .thumbnails label[for="image4"] {
-  background-image: url('../Images/photo4.jpg');
+  background-image: url('./Images/photo4.jpg');
 }
 #image1:checked + .image-1,
 #image2:checked + .image-2,
